@@ -1,0 +1,74 @@
+html {
+    background-color: rgb(45, 45, 174);
+}
+
+A {color:greenyellow}
+A:hover {color:darkturquoise; background-color:darkmagenta;}
+
+UL {color: red;}
+
+h1 {
+    background: rgb(83, 83, 190);
+    color: aqua;
+    font-weight: normal;
+
+} 
+
+p {
+    background: rgb(251, 210, 194);
+    color:rgb(61, 118, 120);
+    padding: 50px
+
+}
+
+img {
+    display: block;
+}
+
+.highlight_01 {
+    background-color: aqua;
+}
+
+.highlight_01 strong {
+    background-color: rgb(133, 207, 207);
+}
+
+.highlight_01 strong:hover {color: rgb(133, 207, 207); background-color: rgb(141, 70, 84);}
+
+.highlight_02{
+    background-color: chartreuse;
+}
+
+#main {
+    background-color: burlywood; 
+    padding: 50px; 
+    margin: 100px;
+    box-shadow:0px 10px 13px -7px #000000, 2px 2px 50px 21px #35FF6D; 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 2px 50px 21px #35FF6D;
+}
+
+#gallery {
+    display:flex; 
+    flex-wrap:wrap; 
+    align-items: flex-start; 
+    row-gap: 30px; 
+    column-gap: 50px;}
+#gallery img {width:300px}
+
+#beds {
+    background-color:hotpink;
+    padding: 10px;
+    margin: 20px;
+}
+
+#kitchen {
+    background-color:hotpink;
+    padding: 10px;
+    margin: 20px;
+}
+
+#window {
+    background-color:hotpink;
+    padding: 10px;
+    margin: 20px;
+}
