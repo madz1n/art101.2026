@@ -1,0 +1,61 @@
+body {
+    background:darkgreen;
+    padding: 50px;
+}
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: darkgreen;
+    padding: 30px;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+}
+
+h1 {
+    color:antiquewhite;
+    font-family: sans-serif;
+}
+
+p{
+    color: rgb(108, 68, 15);
+    font-family: sans-serif;
+}
+#water-bottle {
+    background:antiquewhite;
+    padding: 20px;
+    flex: 2;
+    border-radius: 5px;
+}
+
+#journal {
+    background:antiquewhite;
+    padding: 20px;
+    flex: 2;
+    border-radius: 5px;
+}
+
+.top-zone{
+    display:flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+
+.top-zone img{
+    width: 350px;
+}
+
+.top-zone p{
+    color:antiquewhite;
+    padding: 30px;
+}
+
+.main-zone{
+    display:flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
